@@ -1,46 +1,46 @@
 <div align="center">
 
-# GRAPHIQ
+<svg width="100%" height="130" viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="qColor" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7C3AED"/>
+      <stop offset="50%" stop-color="#22D3EE"/>
+      <stop offset="100%" stop-color="#A78BFA"/>
+    </linearGradient>
 
-<img src="https://readme-typing-svg.demolab.com?font=Inter&size=20&pause=1200&color=000000&center=true&vCenter=true&width=700&lines=Creative+Studio+for+Modern+Visual+Systems" />
+    <filter id="soft">
+      <feGaussianBlur stdDeviation="0.6"/>
+    </filter>
+  </defs>
 
-<br/>
+  <rect width="800" height="130" fill="white"/>
 
-<a href="https://www.graphiq.art/">
-  <img src="https://img.shields.io/badge/ENTER%20STUDIO-000000?style=for-the-badge"/>
-</a>
+  <!-- GRAPHI -->
+  <text x="48%" y="55%" text-anchor="end"
+        font-size="44"
+        font-family="Inter, Arial"
+        fill="#000">
+    GRAPHI
+  </text>
+
+  <!-- Q with Higgsfield-style gradient -->
+  <text x="50%" y="55%" text-anchor="start"
+        font-size="44"
+        font-family="Inter, Arial"
+        fill="url(#qColor)">
+    Q
+  </text>
+
+  <!-- handwritten style subtext -->
+  <text x="50%" y="85%" text-anchor="middle"
+        font-size="14"
+        fill="#ffffff"
+        font-family="cursive, 'Brush Script MT', 'Segoe Script'">
+    creative systems studio
+  </text>
+
+  <!-- subtle glow under Q -->
+  <circle cx="408" cy="60" r="18" fill="url(#qColor)" opacity="0.15" filter="url(#soft)"/>
+</svg>
 
 </div>
-
----
-
-<br/>
-
-<div align="center">
-
-<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="420"/>
-
-</div>
-
----
-
-<br/>
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/BRAND%20SYSTEMS-000000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/UI%20DESIGN-111111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/AI%20VISUALS-222222?style=for-the-badge"/>
-
-</div>
-
----
-
-<br/>
-
-<details>
-<summary><b>VIEW</b></summary>
-
-<br/>
-
-<div align="center">
