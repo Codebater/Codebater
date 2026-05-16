@@ -7,7 +7,7 @@
 <br/>
 
 <a href="https://www.graphiq.art/">
-  <img src="https://img.shields.io/badge/ENTER%20STUDIO-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ENTER%20STUDIO-000000?style=for-the-badge"/
 </a>
 
 </div>
