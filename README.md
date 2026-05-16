@@ -1,62 +1,92 @@
 <div align="center">
 
-<!-- █████ HERO SVG GLASS STYLE █████ -->
-<svg width="100%" height="120" viewBox="0 0 800 120" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0%" stop-color="#000"/>
-      <stop offset="100%" stop-color="#444"/>
-    </linearGradient>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="8"/>
-    </filter>
-  </defs>
+# GRAPHIQ
 
-  <rect width="800" height="120" fill="url(#g)" opacity="0.05"/>
-
-  <text x="50%" y="55%" text-anchor="middle"
-        font-size="40" fill="#000" font-family="Inter">
-    GRAPHIQ
-  </text>
-
-  <text x="50%" y="80%" text-anchor="middle"
-        font-size="14" fill="#444">
-    creative systems studio
-  </text>
-</svg>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Inter&size=16&pause=900&color=000000&center=true&vCenter=true&width=500&lines=Ideas+→+Systems+→+Visual+Reality" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=20&pause=1200&color=000000&center=true&vCenter=true&width=700&lines=Creative+Studio+for+Modern+Visual+Systems" />
 
 <br/>
 
 <a href="https://www.graphiq.art/">
-  <img src="https://img.shields.io/badge/ENTER%20SYSTEM-000000?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/ENTER%20STUDIO-000000?style=for-the-badge"/>
 </a>
 
 </div>
 
 ---
 
-## ▓
+<br/>
 
 <div align="center">
 
-<!-- glassmorphism badge strip -->
-<img src="https://img.shields.io/badge/AI%20DESIGN-000?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/SYSTEM%20BUILDING-111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/VISUAL%20ENGINE-222?style=for-the-badge"/>
+<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="420"/>
 
 </div>
 
 ---
 
-## ▓ CORE (HIDDEN INTERACTION)
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/BRAND%20SYSTEMS-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UI%20DESIGN-111111?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20VISUALS-222222?style=for-the-badge"/>
+
+</div>
+
+---
+
+<br/>
 
 <details>
-<summary><b>VIEW ENGINE</b></summary>
+<summary><b>VIEW</b></summary>
 
 <br/>
 
 <div align="center">
+IDEA → SYSTEM → VISUAL → OUTPUT
+
+</div>
+
+</details>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/l0HlQ7LRal6v1s0yI/giphy.gif" width="320"/>
+
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=laravel,rust,react,nextjs,tailwind" />
+
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-111111?style=for-the-badge"/>
+
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+### https://www.graphiq.art/
+
+</div>
