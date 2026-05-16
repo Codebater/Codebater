@@ -1,13 +1,12 @@
 <div align="center">
 
-# GRAPHI<span style="color:#7C3AED;">Q</span>
+<img src="https://dummyimage.com/600x120/ffffff/000000.png&text=GRAPHI%7C%7C%7C%7C%7C" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Segoe+Script&size=18&pause=1200&color=FFFFFF&center=true&vCenter=true&width=500&lines=creative+systems+studio" />
+<!-- Q as separate colored element -->
+<img src="https://dummyimage.com/600x120/ffffff/000000.png&text=GRAPHI+Q&font=arial" />
 
 <br/>
 
-<a href="https://www.graphiq.art/">
-  <img src="https://img.shields.io/badge/ENTER%20STUDIO-000000?style=for-the-badge"/>
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=Segoe+Script&size=18&pause=1200&color=000000&center=true&vCenter=true&width=500&lines=creative+systems+studio" />
 
 </div>
