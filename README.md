@@ -44,3 +44,50 @@
 <br/>
 
 <div align="center">
+
+
+
+</div>
+
+</details>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300"/>
+
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=laravel,rust,react,nextjs,tailwind" />
+
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/SYSTEM-ONLINE-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/STATUS-ACTIVE-111111?style=for-the-badge"/>
+
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+### https://www.graphiq.art/
+
+</div>
