@@ -1,37 +1,46 @@
-<!-- ========================= -->
-<!-- ⚡ GRAPHIQ README SYSTEM ⚡ -->
-<!-- ========================= -->
-
 <div align="center">
-
-<img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="90"/>
 
 # GRAPHIQ
 
-### AI Creative Engine
+<img src="https://readme-typing-svg.demolab.com?font=Inter&size=20&pause=1200&color=000000&center=true&vCenter=true&width=700&lines=Creative+Studio+for+Modern+Visual+Systems" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1100&color=00FFD5&center=true&vCenter=true&width=600&lines=Ideas+→+Visuals+instantly.;No+design+tools+needed.;Minimal+input.+Maximum+output." />
+<br/>
 
----
-
-<img src="https://img.shields.io/badge/STATUS-ONLINE-00FFD5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/MODE-CREATIVE%20ENGINE-111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/FOCUS-IDEA%20→%20DESIGN-000?style=for-the-badge"/>
+<a href="https://www.graphiq.art/">
+  <img src="https://img.shields.io/badge/ENTER%20STUDIO-000000?style=for-the-badge"/>
+</a>
 
 </div>
 
 ---
 
-## ▓ SYSTEM BOOT
+<br/>
 
-```bash
-$ graphiq --boot
+<div align="center">
 
-[ system ] initializing...
-[ system ] loading creative models........ OK
-[ system ] optimizing visual engine....... OK
-[ system ] syncing design logic........... OK
+<img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" width="420"/>
 
-✔ status: ONLINE
-✔ mode: GENERATIVE CREATIVE CORE
-✔ output: VISUAL SYSTEMS ACTIVE
+</div>
+
+---
+
+<br/>
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/BRAND%20SYSTEMS-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/UI%20DESIGN-111111?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20VISUALS-222222?style=for-the-badge"/>
+
+</div>
+
+---
+
+<br/>
+
+<details>
+<summary><b>VIEW</b></summary>
+
+<br/>
+
+<div align="center">
