@@ -1,6 +1,6 @@
-<!-- ======================= -->
-<!-- ⚡ GRAPHIQ PROFILE ⚡ -->
-<!-- ======================= -->
+<!-- ========================= -->
+<!-- ⚡ GRAPHIQ README SYSTEM ⚡ -->
+<!-- ========================= -->
 
 <div align="center">
 
@@ -10,18 +10,28 @@
 
 ### AI Creative Engine
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=00FFD5&center=true&vCenter=true&width=520&lines=Ideas+become+designs.;Minimal+input.+Maximum+output.;Built+for+speed+and+clarity." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1100&color=00FFD5&center=true&vCenter=true&width=600&lines=Ideas+→+Visuals+instantly.;No+design+tools+needed.;Minimal+input.+Maximum+output." />
 
 ---
 
 <img src="https://img.shields.io/badge/STATUS-ONLINE-00FFD5?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/FOCUS-CREATIVE%20AI-111?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/PHILOSOPHY-MINIMAL%20%2F%20FAST-000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/MODE-CREATIVE%20ENGINE-111?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/FOCUS-IDEA%20→%20DESIGN-000?style=for-the-badge"/>
 
 </div>
 
 ---
 
-## ▓ CORE
+## ▓ SYSTEM BOOT
 
-> Graphiq converts intent → visual systems.
+```bash
+$ graphiq --boot
+
+[ system ] initializing...
+[ system ] loading creative models........ OK
+[ system ] optimizing visual engine....... OK
+[ system ] syncing design logic........... OK
+
+✔ status: ONLINE
+✔ mode: GENERATIVE CREATIVE CORE
+✔ output: VISUAL SYSTEMS ACTIVE
