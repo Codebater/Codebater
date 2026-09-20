@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [scripts/build-card.mjs, .github/workflows/stats-card.yml]
+    paths: [scripts/**, .github/workflows/stats-card.yml]
 
 permissions:
   contents: write
@@ -40,17 +40,19 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
           CARD_LOGIN: ${{ github.repository_owner }}
-        run: node scripts/build-card.mjs
+        run: |
+          node scripts/build-card.mjs
+          node scripts/build-discord-card.mjs
 
       - name: Commit if changed
         if: steps.gate.outputs.ok == 'true'
         run: |
-          if git diff --quiet -- card.svg; then
+          if git diff --quiet -- card.svg card-discord.svg; then
             echo "no change"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add card.svg
+          git add card.svg card-discord.svg
           git commit -m "Refresh stats card"
           git push
