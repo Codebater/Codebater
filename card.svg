@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="460" height="498" viewBox="0 0 460 498" role="img" aria-label="Nutrition facts panel of GitHub statistics for Codebater">
+<style>text{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}</style>
+<rect width="460" height="498" rx="4" fill="#fff"/>
+<rect x="1.5" y="1.5" width="457" height="495" rx="3" fill="none" stroke="#000" stroke-width="3"/>
+<text x="20" y="36" font-size="34" font-weight="800" text-anchor="start" fill="#000">Nutrition Facts</text>
+<text x="20" y="50" font-size="12" font-weight="400" text-anchor="start" fill="#000">1 developer per container · 16 months in service</text>
+<rect x="20" y="61" width="420" height="9" fill="#000"/>
+<text x="20" y="86" font-size="12" font-weight="700" text-anchor="start" fill="#000">Amount per year</text>
+<text x="20" y="109" font-size="24" font-weight="800" text-anchor="start" fill="#000">Commits</text>
+<text x="440" y="109" font-size="24" font-weight="800" text-anchor="end" fill="#000">277</text>
+<rect x="20" y="120" width="420" height="5" fill="#000"/>
+<text x="440" y="141" font-size="12" font-weight="700" text-anchor="end" fill="#000">% Daily Value*</text>
+<rect x="20" y="144" width="420" height="1" fill="#000"/>
+<text x="20" y="162" font-size="13" font-weight="700" text-anchor="start" fill="#000">Repositories</text>
+<text x="440" y="162" font-size="13" font-weight="700" text-anchor="end" fill="#000"></text>
+<text x="386" y="162" font-size="13" font-weight="400" text-anchor="end" fill="#000">23</text>
+<rect x="20" y="167" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="34" y="185" font-size="13" font-weight="400" text-anchor="start" fill="#000">of which public</text>
+<text x="440" y="185" font-size="13" font-weight="700" text-anchor="end" fill="#000">30%</text>
+<text x="386" y="185" font-size="13" font-weight="400" text-anchor="end" fill="#000">7</text>
+<rect x="20" y="190" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="34" y="208" font-size="13" font-weight="400" text-anchor="start" fill="#000">of which "not yet"</text>
+<text x="440" y="208" font-size="13" font-weight="700" text-anchor="end" fill="#000">70%</text>
+<text x="386" y="208" font-size="13" font-weight="400" text-anchor="end" fill="#000">16</text>
+<rect x="20" y="213" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="231" font-size="13" font-weight="700" text-anchor="start" fill="#000">Stars received</text>
+<text x="440" y="231" font-size="13" font-weight="700" text-anchor="end" fill="#000">0%</text>
+<text x="386" y="231" font-size="13" font-weight="400" text-anchor="end" fill="#000">0</text>
+<rect x="20" y="236" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="254" font-size="13" font-weight="700" text-anchor="start" fill="#000">Forks by other people</text>
+<text x="440" y="254" font-size="13" font-weight="700" text-anchor="end" fill="#000">0%</text>
+<text x="386" y="254" font-size="13" font-weight="400" text-anchor="end" fill="#000">0</text>
+<rect x="20" y="259" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="277" font-size="13" font-weight="700" text-anchor="start" fill="#000">Pull requests</text>
+<text x="440" y="277" font-size="13" font-weight="700" text-anchor="end" fill="#000"></text>
+<text x="386" y="277" font-size="13" font-weight="400" text-anchor="end" fill="#000">7</text>
+<rect x="20" y="282" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="300" font-size="13" font-weight="700" text-anchor="start" fill="#000">Issues filed</text>
+<text x="440" y="300" font-size="13" font-weight="700" text-anchor="end" fill="#000"></text>
+<text x="386" y="300" font-size="13" font-weight="400" text-anchor="end" fill="#000">2</text>
+<rect x="20" y="305" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="323" font-size="13" font-weight="700" text-anchor="start" fill="#000">Followers</text>
+<text x="440" y="323" font-size="13" font-weight="700" text-anchor="end" fill="#000"></text>
+<text x="386" y="323" font-size="13" font-weight="400" text-anchor="end" fill="#000">3</text>
+<rect x="20" y="328" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="346" font-size="13" font-weight="700" text-anchor="start" fill="#000">Languages spoken fluently</text>
+<text x="440" y="346" font-size="13" font-weight="700" text-anchor="end" fill="#000"></text>
+<text x="386" y="346" font-size="13" font-weight="400" text-anchor="end" fill="#000">6</text>
+<rect x="20" y="351" width="420" height="1" fill="#000" opacity="0.25"/>
+<text x="20" y="369" font-size="13" font-weight="700" text-anchor="start" fill="#000">Disk consumed</text>
+<text x="440" y="369" font-size="13" font-weight="700" text-anchor="end" fill="#000"></text>
+<text x="386" y="369" font-size="13" font-weight="400" text-anchor="end" fill="#000">267 MB</text>
+<rect x="20" y="374" width="420" height="1" fill="#000" opacity="0.25"/>
+<rect x="20" y="382" width="420" height="9" fill="#000"/>
+<text x="20" y="412" font-size="11" font-weight="400" text-anchor="start" fill="#000">* Percent Daily Value is based on a 2,000 commit diet.</text>
+<text x="20" y="426" font-size="11" font-weight="400" text-anchor="start" fill="#000">Your values may vary depending on how many side</text>
+<text x="20" y="440" font-size="11" font-weight="400" text-anchor="start" fill="#000">projects you refuse to abandon (currently 16).</text>
+<text x="20" y="454" font-size="11" font-weight="400" text-anchor="start" fill="#000"></text>
+<text x="20" y="468" font-size="11" font-weight="400" text-anchor="start" fill="#000">Contains: CSS, TypeScript, JavaScript, PHP, PowerShell, Python.</text>
+<text x="20" y="482" font-size="11" font-weight="400" text-anchor="start" fill="#000">May contain traces of ffmpeg.</text>
+</svg>
