@@ -13,11 +13,9 @@ I design and build end to end — brand systems, web products, and AI film.
 
 <p align="center">
   <img src="card-founder.svg" width="460"
-       alt="An animated character sheet: THE FOUNDER, a standing full-body figure beside stat lines that fade in one by one" />
+       alt="A pastel composition: a standing figure floating over soft drifting colour fields, with pastel silhouettes of the same figure shifting slowly out of register behind it" />
 </p>
 
 <sub>The stats card is rebuilt daily from the live API by
 <a href=".github/workflows/stats-card.yml">a workflow</a> — every number is real, which is
-the joke. There's a <a href="card.svg">nutrition label</a> version too. The character
-sheet is from my own reference sheet, cropped and animated by
-<a href="scripts/build-founder-card.mjs">a script</a>.</sub>
+the joke. There's a <a href="card.svg">nutrition label</a> version too.</sub>
