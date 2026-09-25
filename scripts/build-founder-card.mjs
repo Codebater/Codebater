@@ -1,8 +1,8 @@
 /**
  * Builds card-founder.svg — an artistic pastel card. No text.
  *
- * The figure is the hero panel of my THE FOUNDER reference sheet, segmented off
- * its studio backdrop (u2net) and inlined as a base64 PNG: an SVG rendered
+ * The figure is a photo of me in the forest, segmented off the background
+ * (rembg, birefnet-portrait) and inlined as a base64 PNG: an SVG rendered
  * through <img> — how GitHub serves README images — cannot fetch external
  * resources.
  *
@@ -19,17 +19,20 @@ if (!existsSync(CUTOUT)) {
   console.error(`cutout not found at ${CUTOUT} — nothing written`);
   process.exit(1);
 }
-const cutout = `data:image/png;base64,${readFileSync(CUTOUT).toString('base64')}`;
+const png = readFileSync(CUTOUT);
+const cutout = `data:image/png;base64,${png.toString('base64')}`;
+// PNG IHDR: width and height are the big-endian uint32s at bytes 16 and 20
+const ratio = png.readUInt32BE(16) / png.readUInt32BE(20);
 
 const W = 460;
 const H = 440;
 
-// figure geometry (source is 200x720, ratio 0.278)
-const FH = 356;
-const FW = Math.round(FH * 0.278);
-const FX = Math.round(W / 2 - FW / 2);
-const FY = 54;
-const GROUND = FY + FH;
+// figure geometry. The photo is cropped mid-thigh, so the figure is anchored
+// to the bottom edge and bleeds past it — the float never reveals the cut.
+const FH = 404;
+const FW = Math.round(FH * ratio);
+const FX = Math.round(W / 2 - FW / 2) + 14;
+const FY = H - FH + 12;
 
 const PASTEL = {
   pink: '#F4A8C4',
@@ -67,7 +70,7 @@ const blob = (cx, cy, r, color, op, dur, ax, ay) => `
       repeatCount="indefinite" calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
   </circle>`;
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="An artistic pastel composition: a standing figure floating in front of soft drifting shapes, with pastel silhouettes of the same figure shifting slowly out of register behind it">
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="An artistic pastel composition: a photo of me, cut out, floating in front of soft drifting shapes, with pastel silhouettes of the same figure shifting slowly out of register behind it">
 <defs>
   <image id="fig" href="${cutout}" x="${FX}" y="${FY}" width="${FW}" height="${FH}"/>
 
@@ -106,29 +109,17 @@ const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" 
   </g>
 
   <!-- halo behind the figure -->
-  <circle cx="${W / 2}" cy="${Math.round(FY + FH * 0.42)}" r="146" fill="url(#halo)">
+  <circle cx="${W / 2}" cy="${Math.round(FY + FH * 0.3)}" r="146" fill="url(#halo)">
     <animate attributeName="r" values="146;156;146" dur="13s" repeatCount="indefinite"
              calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
   </circle>
 
-  <!-- a soft pastel horizon the figure stands on -->
-  <ellipse cx="${W / 2}" cy="${GROUND + 6}" rx="150" ry="10" fill="${PASTEL.peach}" opacity="0.55" filter="url(#blur8)">
-    <animate attributeName="rx" values="150;134;150" dur="6s" repeatCount="indefinite"
-             calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-  </ellipse>
 
   <!-- riso misregistration: the same figure, three pastels, drifting apart -->
   ${ghost(PASTEL.pink, -21, 7, 11, 0.7)}
   ${ghost(PASTEL.mint, 19, -6, 14, 0.65)}
   ${ghost(PASTEL.lilac, 8, 17, 9, 0.6)}
 
-  <!-- contact shadow -->
-  <ellipse cx="${W / 2}" cy="${GROUND + 4}" rx="42" ry="7" fill="#9B8AA6" opacity="0.3" filter="url(#blur8)">
-    <animate attributeName="rx" values="42;35;42" dur="6s" repeatCount="indefinite"
-             calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-    <animate attributeName="opacity" values="0.3;0.18;0.3" dur="6s" repeatCount="indefinite"
-             calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
-  </ellipse>
 
   <!-- the figure -->
   <g>

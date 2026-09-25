@@ -13,7 +13,7 @@ I design and build end to end — brand systems, web products, and AI film.
 
 <p align="center">
   <img src="card-founder.svg" width="460"
-       alt="A pastel composition: a standing figure floating over soft drifting colour fields, with pastel silhouettes of the same figure shifting slowly out of register behind it" />
+       alt="A pastel composition: a photo of me, cut out and floating over soft drifting colour fields, with pastel silhouettes of the same figure shifting slowly out of register behind it" />
 </p>
 
 <sub>The stats card is rebuilt daily from the live API by
